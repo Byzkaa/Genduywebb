@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donat Genduy — Genduy Hari Ini, Kenapa Enggak?</title>
+<meta name="description" content="Donat Genduy: donat empuk halal dengan aneka topping dari Jatimakmur, Pondok Gede, Bekasi. Pesan via WhatsApp, GoFood, GrabFood, ShopeeFood, atau Maxim.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav">
+  <div class="nav__inner">
+    <a class="brand" href="#beranda">
+      <span class="logo-slot" data-slot="logo" title="Klik untuk ganti logo">
+        <svg class="logo-mark" viewBox="0 0 64 64" width="40" height="40" aria-hidden="true">
+          <circle cx="32" cy="32" r="27" fill="#6B3B21"/>
+          <circle cx="32" cy="32" r="27" fill="none" stroke="#3A1F12" stroke-width="2"/>
+          <circle cx="32" cy="32" r="10.5" fill="#FFF3DD"/>
+          <path d="M12 24 C 20 12, 44 12, 52 24 C 46 20, 38 18, 32 18 C 26 18, 18 20, 12 24 Z" fill="#FF6FA0"/>
+          <circle cx="20" cy="17" r="1.6" fill="#8BAA3C"/>
+          <circle cx="26" cy="13" r="1.6" fill="#E8A33D"/>
+          <circle cx="34" cy="12" r="1.6" fill="#FFF3DD"/>
+          <circle cx="42" cy="15" r="1.6" fill="#8BAA3C"/>
+        </svg>
+        <img class="logo-mark logo-uploaded" alt="Logo Donat Genduy" hidden>
+      </span>
+      <span class="brand__word">Donat<em>Genduy</em></span>
+    </a>
+    <nav class="nav__links">
+      <a href="#tentang">Tentang</a>
+      <a href="#menu">Menu</a>
+      <a href="#cara-pesan">Cara Pesan</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <a class="btn btn--wa nav__cta" href="https://wa.me/6287880186600" target="_blank" rel="noopener">Pesan via WA</a>
+    <button class="nav__burger" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="beranda">
+  <div class="hero__text">
+    <p class="eyebrow">Jatimakmur · Pondok Gede · Bekasi</p>
+    <h1>Genduy hari ini, <em>kenapa enggak?</em></h1>
+    <p class="hero__sub">Donat empuk, topping melimpah, dan dijamin halal. Genduy hadir dengan aneka rasa yang bikin susah berhenti di satu gigitan &mdash; tinggal pilih, tinggal order.</p>
+    <div class="hero__cta">
+      <a class="btn btn--wa" href="https://wa.me/6287880186600" target="_blank" rel="noopener">Pesan via WhatsApp</a>
+      <a class="btn btn--ghost" href="#menu">Lihat Menu</a>
+    </div>
+    <div class="hero__platforms">
+      <span>Juga tersedia di</span>
+      <div class="platform-badges">
+        <span class="badge">GoFood</span>
+        <span class="badge">GrabFood</span>
+        <span class="badge">ShopeeFood</span>
+        <span class="badge">Maxim</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__visual" aria-hidden="true">
+    <div class="donut-hero">
+      <svg viewBox="0 0 400 400" class="donut-hero__svg">
+        <defs>
+          <radialGradient id="doughGrad" cx="35%" cy="30%" r="70%">
+            <stop offset="0%" stop-color="#8a5a36"/>
+            <stop offset="100%" stop-color="#5c3a20"/>
+          </radialGradient>
+        </defs>
+        <circle cx="200" cy="200" r="150" fill="url(#doughGrad)"/>
+        <circle cx="200" cy="200" r="150" fill="none" stroke="#3A1F12" stroke-width="3"/>
+        <circle cx="200" cy="200" r="58" fill="#FFF3DD"/>
+        <circle cx="200" cy="200" r="58" fill="none" stroke="#3A1F12" stroke-width="3"/>
+        <path id="glazePath" class="glaze" d="M60 150
+          C 90 90, 160 55, 200 55
+          C 250 55, 310 95, 335 155
+          C 300 130, 260 118, 230 128
+          C 250 145, 245 175, 220 178
+          C 235 195, 220 220, 195 210
+          C 200 230, 175 245, 160 225
+          C 150 245, 120 240, 118 215
+          C 95 220, 78 195, 90 175
+          C 68 175, 55 165, 60 150 Z" fill="#FF6FA0"/>
+        <g class="sprinkles">
+          <rect x="95" y="90" width="10" height="3.5" rx="1.5" fill="#8BAA3C" transform="rotate(20 95 90)"/>
+          <rect x="130" y="70" width="10" height="3.5" rx="1.5" fill="#FFF3DD" transform="rotate(-15 130 70)"/>
+          <rect x="180" y="65" width="10" height="3.5" rx="1.5" fill="#E8A33D" transform="rotate(40 180 65)"/>
+          <rect x="230" y="75" width="10" height="3.5" rx="1.5" fill="#8BAA3C" transform="rotate(-30 230 75)"/>
+          <rect x="270" y="100" width="10" height="3.5" rx="1.5" fill="#FFF3DD" transform="rotate(10 270 100)"/>
+          <rect x="150" y="105" width="10" height="3.5" rx="1.5" fill="#E8A33D" transform="rotate(65 150 105)"/>
+          <rect x="205" y="95" width="10" height="3.5" rx="1.5" fill="#FFF3DD" transform="rotate(-50 205 95)"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TENTANG ===== -->
+<section class="about" id="tentang">
+  <div class="about__inner">
+    <p class="eyebrow eyebrow--dark">Tentang Kami</p>
+    <h2>Donat rumahan yang jadi kesayangan tetangga</h2>
+    <p>Genduy mulai dari dapur rumahan di Jatimakmur, Pondok Gede, dan sekarang jadi camilan langganan warga Bekasi lewat pesan-antar. Setiap adonan dibuat empuk, ditutup lapisan topping yang murah hati, dan dijamin halal dari awal sampai akhir. Pelanggan setia kami punya nama sendiri: <strong>Gendlovers</strong>.</p>
+    <div class="about__stats">
+      <div class="stat"><span class="stat__num">100%</span><span class="stat__label">Halal</span></div>
+      <div class="stat"><span class="stat__num">6+</span><span class="stat__label">Varian Rasa</span></div>
+      <div class="stat"><span class="stat__num">4</span><span class="stat__label">Platform Delivery</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MENU ===== -->
+<section class="menu" id="menu">
+  <p class="eyebrow eyebrow--dark center">Menu</p>
+  <h2 class="center">Buka boks-nya, pilih rasamu</h2>
+  <p class="menu__note center">Harga di bawah contoh awal &mdash; sesuaikan lagi sebelum dipakai jualan ya.</p>
+
+  <div class="donut-box" id="menuGrid">
+    <!-- cards injected by JS -->
+  </div>
+</section>
+
+<!-- ===== CARA PESAN ===== -->
+<section class="order" id="cara-pesan">
+  <p class="eyebrow center">Cara Pesan</p>
+  <h2 class="center order__title">Tiga langkah, genduy sampai</h2>
+
+  <div class="receipt">
+    <div class="receipt__row">
+      <span class="receipt__num">01</span>
+      <div>
+        <h3>Pilih rasa favorit</h3>
+        <p>Cek menu di atas, tentukan varian yang bikin ngiler hari ini.</p>
+      </div>
+    </div>
+    <div class="receipt__row">
+      <span class="receipt__num">02</span>
+      <div>
+        <h3>Order lewat kanal favoritmu</h3>
+        <p>WhatsApp, GoFood, GrabFood, ShopeeFood, atau Maxim &mdash; tinggal pilih.</p>
+      </div>
+    </div>
+    <div class="receipt__row">
+      <span class="receipt__num">03</span>
+      <div>
+        <h3>Genduy diantar segar</h3>
+        <p>Donat dikemas rapi dan langsung meluncur ke lokasimu.</p>
+      </div>
+    </div>
+    <div class="receipt__cta">
+      <a class="btn btn--wa" href="https://wa.me/6287880186600" target="_blank" rel="noopener">Chat WhatsApp Sekarang</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALERI ===== -->
+<section class="gallery" id="galeri">
+  <p class="eyebrow eyebrow--dark center">Galeri</p>
+  <h2 class="center">Pajang foto donat aslimu di sini</h2>
+  <p class="menu__note center">Klik kotak mana saja untuk unggah fotomu sendiri. Foto tersimpan otomatis di browser ini.</p>
+  <div class="gallery__grid" id="galleryGrid"></div>
+</section>
+
+<!-- ===== FOOTER / KONTAK ===== -->
+<footer class="footer" id="kontak">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <span class="brand__word brand__word--footer">Donat<em>Genduy</em></span>
+      <p>Donat empuk, topping melimpah, halal dari hati.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Kontak</h4>
+      <p>Jl. Antara No. 48, RT 02/RW 09<br>Kel. Jatimakmur, Kec. Pondok Gede<br>Bekasi</p>
+      <p><a href="https://wa.me/6287880186600" target="_blank" rel="noopener">0878-8018-6600</a></p>
+    </div>
+    <div class="footer__col">
+      <h4>Sosial Media</h4>
+      <p><a href="https://www.instagram.com/donatgenduy/" target="_blank" rel="noopener">Instagram @donatgenduy</a></p>
+      <p><a href="https://www.tiktok.com/@genduy.official" target="_blank" rel="noopener">TikTok @genduy.official</a></p>
+      <p><a href="https://www.facebook.com/genduy.official/" target="_blank" rel="noopener">Facebook Donat Genduy</a></p>
+    </div>
+    <div class="footer__col">
+      <h4>Pesan Antar</h4>
+      <p>GoFood &middot; GrabFood &middot; ShopeeFood &middot; Maxim</p>
+    </div>
+  </div>
+  <p class="footer__copy">&copy; <span id="year"></span> Donat Genduy. Dibuat dengan gemes.</p>
+</footer>
+
+<input type="file" id="fileInput" accept="image/*" hidden>
+
+<script src="script.js"></script>
+</body>
+</html>
